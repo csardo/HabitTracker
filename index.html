@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<title></title>
+	
+	<link rel="stylesheet" href="assets/styles/main.css">
+	
+</head>
+<body>
+    <form>
+        <label for="habit-title">Title:</label><br>
+        <input type="text" id="habit-title" name="habit-title"><br>
+        <label for="habit-frequency">Frequency:</label><br>
+        <input type="text" id="habit-frequency" name="habit-frequency">
+        <label for="habit-frequency-rate">Rate:</label>
+        <select name="habit-frequency-rate" id="habit-frequency-rate">
+            <option value="day">Day</option>
+            <option value="week">Week</option>
+            <option value="month">Month</option>
+          </select>
+      </form>
+
+    <!-- Placing scripts at the bottom of the <body> element improves the display speed,
+         because script interpretation slows down the display. (www.w3schools.com) -->
+	<script src="assets/scripts/main.js"></script>
+
+</body>
+</html>
