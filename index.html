@@ -11,9 +11,10 @@
 	
 </head>
 <body>
-    <form>
+    <form id="habit-creator">
         <label for="habit-title">Title:</label><br>
         <input type="text" id="habit-title" name="habit-title"><br>
+        
         <label for="habit-frequency">Frequency:</label><br>
         <input type="text" id="habit-frequency" name="habit-frequency">
         <label for="habit-frequency-rate">Rate:</label>
@@ -22,6 +23,9 @@
             <option value="week">Week</option>
             <option value="month">Month</option>
           </select>
+          <div>
+            <button type="submit">Create</button>
+          </div>
       </form>
 
     <!-- Placing scripts at the bottom of the <body> element improves the display speed,
